@@ -25,7 +25,7 @@ const images = {
     flagpole: new Image()
 };
 
-// Update these paths to match your local file structure
+// image assets
 images.background.src = 'img/background.png';
 images.hills.src = 'img/hills.png';
 images.platform.src = 'img/platform.png';
@@ -84,7 +84,7 @@ class Player {
         this.height = 150;
         this.baseSpeed = 7;
         this.speed = 7;
-        this.baseJump = -25; // Adjusted for better feel
+        this.baseJump = -25; 
         this.jumpPower = -25;
         this.frames = 0;
         this.currentSprite = images.spriteStandRight;
